@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0037/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0037/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上清金匱玉鏡修真指玄妙經
+  date: '2015-08-28 23:47:50.692231'
+  source:
+    repository: kanripo
+    path: KR5b0037
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0037_000-HFL.yaml, hash: 'sha256:e07403557ff9786fd8faf53b9bdb939fce40401187e5ecc3ff1a44fb1606db7e'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0037_000-HFL.markers.yaml, hash: 'sha256:e2e893a9a2dc197f7ac4520c915d8b7b8e3f528d511bd80cade77403df3df0db'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0037_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1064
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:ebf305345ce52931014e4359b3651994fc08935d16699b5f008d4eed5f1ebc0e
